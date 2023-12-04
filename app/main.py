@@ -25,8 +25,8 @@ while user_victories < 3 and computer_victories < 3 and attempts > 0:
     print(Fore.RED + f'Opción no válida. Te quedan {attempts} intentos.' + Style.RESET_ALL)
     continue
 
-  computer_choice = 'piedra'
-  # computer_choice = random.choice(options)
+  # computer_choice = 'piedra'
+  computer_choice = random.choice(options)
 
   print(f'Tú elegiste: {user_choice_lower} {emojis[user_choice_lower]}')
   time.sleep(2)
